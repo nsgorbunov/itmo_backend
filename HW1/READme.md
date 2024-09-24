@@ -19,10 +19,22 @@ cd HW1
 
 Требуется Python версии 3.10. 
 
+#### На macOS
+
 ```bash
 brew install python@3.10
 ```
 
+```bash
+python3.10 --version
+```
+
+#### На Linux
+
+```bash
+sudo apt update
+sudo apt install python3.10 python3.10-venv python3.10-dev -y
+```
 
 ```bash
 python3.10 --version
@@ -54,3 +66,5 @@ make test
 ```
 
 Команда автоматически запустит сервер и выполнит тесты для проверки работы API.
+
+Если вдруг что-то не так: tg @nikita_gbn
